@@ -17,23 +17,32 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">EmHubTech</a>
-            <ul class="text-white-50">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">EmHub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#article">Newsletters</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    Navbar text with an inline element
+                </span>
+            </div>
         </div>
     </nav>
 
@@ -64,11 +73,12 @@
         </div>
     </section>
 
-    <section class="service">
+    <section class="service" id="services">
         <div class="container">
 
             <header class="service-header">
                 <h1>Free Consultation Services</h1>
+                <hr class="star-primary">
                 <h4>Please feel free to reach out to us for business</h4>
             </header>
 
@@ -134,7 +144,7 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -193,51 +203,61 @@
         </div>
     </section>
 
-    <section class="article-page">
+    <section class="article-page" id="article">
         <div class="container">
             <header class="blog-title">
                 <h1>Recent Blogs</h1>
             </header>
-            
+
 
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">#Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <footer>
-                            12-21-2023
-                          </footer>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">#Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <footer>
+                                12-21-2023
+                            </footer>
                         </div>
-                      </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">#Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <footer>
-                            12-21-2023
-                          </footer>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">#Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <footer>
+                                12-21-2023
+                            </footer>
                         </div>
-                      </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">#Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <footer>
-                            12-21-2023
-                          </footer>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">#Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <footer>
+                                12-21-2023
+                            </footer>
                         </div>
-                      </div>
+                    </div>
                 </div>
             </div>
-            
-              
         </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright">Copyright &copy; EmHub 2023</div>
+                </div>
+            </div>
 
     </section>
 
